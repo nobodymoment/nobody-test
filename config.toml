@@ -1,0 +1,48 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Nobody'
+theme = "graysx-hugo"
+
+## Site Settings
+[params]
+logo = "assets/img/logo.webp"
+favicon = "assets/favicon.png"
+
+# Info
+address = "123 Arch B1W, GNU/Linux"
+email = "nobodymoment@nobody.org"
+phone = "123456"
+
+# Socials
+
+twitter = "#"
+facebook = "#"
+github = "#"
+
+# Other
+
+# Startbootstrap Contact Form Token https://startbootstrap.com/solution/contact-forms
+sbtoken = "TOKEN_HERE"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "Services"
+  URL = "#services"
+  weight = 1
+
+  [[menu.main]]
+  name = "About Us"
+  URL = "#about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact Us"
+  URL = "#signup"
+  weight = 3
+
+
+# Credits
+
+# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
+# This theme is forked by: https://github.com/akatiggerx04
